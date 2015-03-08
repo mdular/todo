@@ -1,21 +1,21 @@
 var React = require('react');
 
 var Footer = React.createClass({
-	//getInitialState: function () {},
+    //getInitialState: function () {},
 
-	//componentDidMount: function () {},
+    //componentDidMount: function () {},
 
-	//componentWillUnmount: function () {},
+    //componentWillUnmount: function () {},
 
-	render: function () {
-		return (
-			<footer>
-				footer
-			</footer>
-		);
-	},
+    render: function () {
+        return (
+            <footer>
+                footer
+            </footer>
+        );
+    },
 
-	//_onChange: function () {}
+    //_onChange: function () {}
 });
 
 module.exports = Footer;
