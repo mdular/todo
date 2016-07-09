@@ -2,6 +2,8 @@ var React = require('react');
 var TodoActions = require('../actions/TodoActions');
 var TodoTextInput = require('./TodoTextInput');
 
+var R = React.createElement;
+
 var Header = React.createClass({
     //getInitialState: function () {},
 
@@ -18,6 +20,7 @@ var Header = React.createClass({
                     placeholder="What needs to be done?"
                     onSave={this._onSave}
                 />
+                <p>
             </header>
         );
     },
